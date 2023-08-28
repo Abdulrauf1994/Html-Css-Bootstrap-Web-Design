@@ -181,7 +181,7 @@
 }
 
 .banner{
-    background: url(../../valanto/images/banner.webp) no-repeat 0 0;
+    background: url(./images/banner.webp) no-repeat 0 0;
     background-position: top;
     background-size: cover;
     height: 500px;
@@ -787,6 +787,12 @@
         margin-left: 20px;
     }
 
+    .view-col{
+        width: 320px;
+    }
+
+    
+
     .section-col{
         display: flex;
         justify-content: center;
@@ -806,5 +812,9 @@
 
     .testiemon{
         display: none;
+    }
+
+    .input-col, .last-input-col{
+        width: 320px;
     }
 }
