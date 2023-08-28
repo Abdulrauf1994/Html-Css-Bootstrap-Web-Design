@@ -1,0 +1,810 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.black-nav{
+    height: 25px;
+    background-color: black;
+}
+
+.black-nav-icons-col{
+    display: flex;
+    align-items: center;
+    height: 25px;
+    padding: 0px 0px;
+}
+
+.icons-main{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-brands{
+    color: white;
+}
+
+.delivery-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+}
+
+.delivery-text{
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+}
+
+.contact-col{
+    display: flex;
+    justify-content: flex-end;
+    height: 25px;
+    align-items: center;
+    padding: 0px 0px;
+    /* border: solid 1px red; */
+}
+
+.number{
+    color: white;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+}
+
+.email{
+    color: white;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+.navbar{
+    display: none;
+}
+
+.white-nav{
+    height: 155px;
+}
+
+.white-nav-col{
+    display: flex;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+.achors-ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 150px;
+    padding: 0px; 
+}
+
+.white-nav-li{
+    list-style: none;
+   
+}
+
+.anchors{
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-right: 30px;
+}
+
+.logo-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+}
+
+.cart-section-col{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+}
+
+.fa-magnifying-glass{
+    font-size: 15px;
+    margin-right: 15px;
+    
+}
+
+.signin-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 35%;
+    /* border: solid 2px red; */
+}
+
+.signin{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+.country-box{
+    border: none;
+    outline: none;
+}
+
+.country-option{
+    font-weight: 700;
+    font-size: 15px;
+ 
+}
+
+.carting-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 42px;
+    width: 87px;
+    border: solid 2px black;
+}
+
+.carting-icon{
+    font-size: 11px;
+}
+
+.carting-price{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner{
+    background: url(../../valanto/images/banner.webp) no-repeat 0 0;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+}
+
+.hot-sell-container{
+    overflow: hidden;
+}
+.hot-sell-row{
+    display: flex;
+    justify-content: center;
+}
+.hot-sell-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.hot-selling-text{
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.product-card-col{
+
+}
+
+.discount{
+    border-right: transparent 75px solid;
+    border-top: 75px solid #aa000f;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    
+}
+
+.discount-in{
+    position: relative;
+    top: -74px;
+    font-size: 14px;
+    margin-left: 6px;
+    color: white;
+
+}
+
+.product-img{
+    width: 220px;
+    height: 250px;
+    /* border: #aa000f solid 3px; */
+}
+
+.product-detail{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgb(94, 93, 93);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+.product-price{
+    /* border: solid 2px rebeccapurple; */
+    margin-bottom: 10px;
+    
+}
+
+.prices{
+
+}
+
+.del-price{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.ins-price{
+    color: #aa000f;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10px;
+}
+
+.view-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: #aa000f;
+    margin-top: 40px;
+}
+
+.view-all-text{
+    margin-bottom: 0px;
+    color: white;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lamp-container{
+    overflow: hidden;
+}
+
+.lamp-row{
+    margin-top: 30px;
+}
+.lamp-para-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lamp-heading{
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.lamp-para{
+    margin-bottom: 4px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+.packge{
+    margin-bottom: 8px;
+}
+
+.shop{
+    background-color: #aa000f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    
+}
+
+.shop-text{
+    color: white;
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lamp-img-col{
+    display: flex;
+    justify-content: center;
+}
+
+.watch-img-col{
+    display: flex;
+    justify-content: center;
+}
+
+.watch-para-col{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.watch-para{
+    /* margin-bottom: 10px; */
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-us-row{
+    display: flex;
+    justify-content: center;
+}
+
+.about-us-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us-heading{
+    font-weight: 600;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+}
+.about-us-text{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.onsale-container{
+    overflow: hidden;
+}
+
+.onsale-row{
+    display: flex;
+    justify-content: center;
+}
+.onsale-col{
+    display: flex;
+    justify-content: center;
+}
+
+.onsale-heading{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section{
+    margin-top: 30px;
+}
+
+.section-container{
+    overflow: hidden;
+}
+
+.section-col{
+    padding: 0px;
+}
+.section-img{
+    /* width: 360px; */
+    height: 320px;
+}
+
+.testiemon{
+    margin-top: 30px;
+}
+
+.testiemon-col{
+    display: flex;
+    justify-content: center;
+}
+
+.testi-img-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testi-img{
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+}
+
+.testi-text{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.newsletter{
+    margin-top: 30px;
+    height: 300px;
+    background-color: black;
+}
+
+.newsletter-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.newsletter-col{
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-heading{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-col{
+    background-color: #d6d6d6;
+}
+
+.first-input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #d6d6d6;
+    text-transform: uppercase;
+}
+
+.last-input-col{
+    margin-top: 15px;
+    display: flex;
+    padding: 0px;
+    background-color: #d6d6d6;
+}
+.last-input{
+    width: 80%;
+    width: 100%;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background-color: #d6d6d6;
+    text-transform: uppercase;
+}
+.signup{
+    width: 20%;
+    background-color: #aa000f;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.signup-text{
+    color: white;
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+
+
+@media screen and (max-width: 991px) {
+    .black-nav{
+        height: 33px;
+    }
+
+    .black-nav-icons-col, .delivery-col{
+        display: flex;
+        align-items: center;
+        height: 33px;
+    }
+    
+    .icons-main{
+        width: 65%;
+    }
+
+    .contact-col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        height: 33px;
+    }
+
+    .number{
+        text-align: end;
+    }
+
+    .white-nav{
+        display: none;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    .navbar{
+        display: flex;
+    }
+
+    .nav-link{
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        height: 60px;
+        border: 1px rgb(225, 225, 225) solid;
+        border-left: 0px;
+        border-right: 0px;
+        padding-top: 20px;
+    }
+
+    .signin-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 35%;
+        /* border: solid 2px red; */
+    }
+
+    .banner{
+        background: url(../../valanto/images/banner.webp) no-repeat 0 0;
+        background-position: top;
+        background-size: cover;
+        height: 400px;
+    }
+
+    .hot-selling-text{
+        font-weight: 500;
+    }
+    
+    .product-card-col{
+        padding: 0px;
+        /* border: #aa000f solid 1PX; */
+        margin-bottom: 5PX;
+    }
+    
+    .discount{
+        border-right: transparent 60px solid;
+        border-top: 60px solid #aa000f;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        
+    }
+    
+    .discount-in{
+        position: relative;
+        top: -60px;
+        font-size: 11px;
+        margin-left: 6px;
+        color: white;
+    
+    }
+    
+    .product-img{
+        width: 175px;
+        height: 175px;
+        /* border: #aa000f solid 3px; */
+    }
+    
+    .product-detail{
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 5px;
+    }
+    
+    .prices{
+        margin-bottom: 8px;
+    }
+
+    .ins-price{
+        margin-left: 0px;
+    }
+
+    .lamp-heading, .watch-heading{
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+
+    .lamp-img{
+        width: 400px;
+    }
+    
+    .about-us-text{
+        font-size: 14px;
+        
+    }
+
+    .section-img{
+        /* width: 260px; */
+        height: 250px;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+
+    .icons-main{
+        width: 85%;
+    }
+
+    .white-nav{
+        display: none;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    .banner{
+        background: url(../../valanto/images/banner.webp) no-repeat 0 0;
+        background-position: top;
+        background-size: cover;
+        height: 300px;
+    }
+
+    .product-card-col{
+        /* border: #aa000f solid 2px; */
+    }
+
+    .product-img{
+        width: 260px;
+        height: 260px;
+        /* border: #f68e97 solid 3px; */
+    }
+
+    .lamp-heading, .watch-heading{
+        font-size: 28px;
+    }
+
+    .lamp-img-col, .watch-img-col{
+        display: none;
+    }
+
+    .watch-para-col{
+        padding: 0px 12px;
+        margin-top: 30px;
+    }
+
+    .about-us{
+        margin-top: 30px;
+    }
+
+    .about-us-col{
+        padding: 0px;
+    }
+    .section-img{
+        width: 365px;
+        height: 365px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .black-nav{
+        display: none;
+    }
+
+    .signin-main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+        /* border: solid 2px red; */
+    }
+    .banner{
+        height: 220px;
+    }
+    .product-card-col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .discount-main{
+        /* border: #aa000f solid 2px; */
+        display: flex;
+        align-items: flex-start;
+        width: 320px;
+    }
+    .discount{
+        border-right: transparent 75px solid;
+        border-top: 75px solid #aa000f;
+        
+        width: 75px;
+        height: 75px;
+        position: absolute;
+        
+    }
+    
+    .discount-in{
+        position: relative;
+        top: -74px;
+        font-size: 14px;
+        margin-left: 6px;
+        color: white;
+    
+    }
+
+    .product-img{
+        width: 320px;
+        height: 320px;
+        /* border: #aa000f solid 3px; */
+    }
+    
+    .product-detail{
+        font-size: 13px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        color: rgb(94, 93, 93);
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    
+    .product-price{
+        /* border: solid 2px rebeccapurple; */
+        margin-bottom: 10px;
+        
+    }
+    
+    .prices{
+    
+    }
+    
+    .del-price{
+        font-size: 22px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+    
+    .ins-price{
+        color: #aa000f;
+        font-size: 22px;
+        text-decoration: none;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 20px;
+    }
+
+    .section-col{
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-img{
+        width: 320px;
+    }
+
+    .newsletter-heading{
+        font-size: 16px;
+    }
+
+    .signup-text{
+        font-size: 11px;
+    }
+
+    .testiemon{
+        display: none;
+    }
+}
