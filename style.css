@@ -209,7 +209,7 @@
 }
 
 .product-card-col{
-
+    
 }
 
 .discount{
@@ -231,7 +231,7 @@
 }
 
 .product-img{
-    width: 220px;
+    width: 250px;
     height: 250px;
     /* border: #aa000f solid 3px; */
 }
@@ -407,7 +407,7 @@
     padding: 0px;
 }
 .section-img{
-    /* width: 360px; */
+    width: 360px;
     height: 320px;
 }
 
@@ -507,6 +507,14 @@
     font-size: 13px;
 }
 
+@media screen and (max-width: 1199px) {
+    .product-img{
+        width: 220px;
+        height: 250px;
+        /* border: #aa000f solid 3px; */
+    }
+}
+
 
 @media screen and (max-width: 991px) {
     .black-nav{
@@ -566,7 +574,7 @@
     }
 
     .banner{
-        background: url(../../valanto/images/banner.webp) no-repeat 0 0;
+        background: url(./images/banner.webp) no-repeat 0 0;
         background-position: top;
         background-size: cover;
         height: 400px;
@@ -636,8 +644,8 @@
     }
 
     .section-img{
-        /* width: 260px; */
-        height: 250px;
+        width: 234px;
+        height: 230px;
     }
     
 }
@@ -657,7 +665,7 @@
     }
 
     .banner{
-        background: url(../../valanto/images/banner.webp) no-repeat 0 0;
+        background: url(./images/banner.webp) no-repeat 0 0;
         background-position: top;
         background-size: cover;
         height: 300px;
@@ -694,7 +702,7 @@
         padding: 0px;
     }
     .section-img{
-        width: 365px;
+        width: 380px;
         height: 365px;
     }
 }
@@ -800,6 +808,7 @@
 
     .section-img{
         width: 320px;
+        height: 320px;
     }
 
     .newsletter-heading{
